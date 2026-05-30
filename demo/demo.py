@@ -34,7 +34,7 @@ class ChartGenerationProcessor(Processor):
             extra_headers={"chart_generated": True}
         )
 
-# --- Step 2: Use the Vectra DSL to wire up the core Bactrian engine ---
+# --- Step 2: Use the builder to wire up the core Bactrian engine ---
 print("--- Initializing Pipelines via RouteBuilder ---")
 RouteBuilder()\
     .from_event("BINANCE_TICK_STREAM")\

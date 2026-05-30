@@ -1,7 +1,7 @@
 from typing import List, Type, Self
 from bactrian.core import Processor, RouteRegistry
 from typing import List, Type, Self
-from bactrian.core import Processor, RouteRegistry
+from .core import Processor, RouteRegistry
 
 class RouteBuilder:
     """The DSL for fluidly building Bactrian processing routes using method chaining."""
