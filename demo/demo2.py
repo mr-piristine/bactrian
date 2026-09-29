@@ -47,6 +47,8 @@ class ChartGenerationProcessor(Processor):
             new_body=df,
             extra_headers={"chart_generated": True}
         )
+    
+    
 if __name__ == "__main__":
 
     # --- Step 2: Use the builder to wire up the core Bactrian engine ---
